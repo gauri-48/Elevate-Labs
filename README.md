@@ -20,7 +20,7 @@ Network Range Identification: Using ifconfig/ip a, I determined my subnet (e.g.,
 Performing TCP SYN Scan: Ran the following command to begin scanning:
 
 text
-nmap -sS 192.168.1.0/24
+nmap -sS 192.168.1.0/24: internse-scan/TCP-scan/port-scan.
 This executed a SYN scan across all devices on the subnet.
 
 Results Analysis: Recorded the list of active IPs and their open ports. For each port, I noted the associated service (e.g., SSH, HTTP, SMB).
